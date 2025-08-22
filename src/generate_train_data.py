@@ -29,7 +29,7 @@ OUT_ROOT = '../hungarian/unaligned1'
 os.makedirs(OUT_ROOT, exist_ok=True)
 
 
-_DEFAULT_MESH_DATASET_PATH: str = '../../SpectralCorticalShape/Surfaces/'
+_DEFAULT_MESH_DATASET_PATH: str = '../SpectralCorticalShape/Surfaces/'
 _DEFAULT_SPEC_DATASET_PATH: str = '../data/laplace/k25/'
 
 _PERMUTATIONS = [[0, 1, 2], [0, 2, 1], [1, 0, 2], [1, 2, 0], [2, 0, 1], [2, 1, 0]]
