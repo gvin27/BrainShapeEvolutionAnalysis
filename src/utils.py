@@ -126,7 +126,8 @@ def find_rotation_closed_form_iterative(m1: SpectralMesh,
     corr['C_21'] = C_21
     corr['R_12'] = R_12
     corr['R_21'] = R_21
-
+    corr['errs_X'] = errs_X
+    corr['errs_Z'] = errs_Z
 
     return corr
 
